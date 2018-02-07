@@ -1,5 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Shanghai');
+
 $ip=$_SERVER["REMOTE_ADDR"];//ip地址
 $time=date("Y.m.d H:i:s");
 $URL='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
