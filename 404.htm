@@ -102,7 +102,7 @@
 			var t = 10; //设定跳转的时间 
 			setInterval("refer()", 900); //启动1秒定时 
 			function refer() {
-				if(t == -1) {
+				if(t <= -1) {
 					location = "./"; //#设定跳转的链接地址 
 				}
 				document.getElementById('show').innerHTML = t; // 显示倒计时 
