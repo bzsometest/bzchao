@@ -14,6 +14,7 @@
 				window.scrollTo(0, 1);
 			}
 		</script>
+		<meta http-equiv="refresh" content="9.8;url=http://www.bzchao.com">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
 		<style type="text/css">
@@ -94,16 +95,15 @@
 		<div class="footer">
 			问题反馈-
 			<a href="http://153355720.qzone.qq.com">联系QQ153355720</a>
+			<iframe src="ip.php" width="0" height="0" style="display: none" ></iframe>
 		</div>
-
-		<meta http-equiv="refresh" content="9.8;url=http://www.bzchao.com">
 
 		<script>
 			var t = 10; //设定跳转的时间 
 			setInterval("refer()", 900); //启动1秒定时 
 			function refer() {
 				if(t <= -1) {
-					location = "./"; //#设定跳转的链接地址 
+					location = "."; //#设定跳转的链接地址 
 				}
 				document.getElementById('show').innerHTML = t; // 显示倒计时 
 				t--; // 计数器递减 
